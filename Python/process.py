@@ -219,9 +219,9 @@ def extract_feature(array='2d array',value_to_extract='integer beteween 0 and 25
     of.close()
     
 extract_feature(red>0,1,'red')
-res2values = np.unique(res2)
-print(res2values)
-extract_feature(res3,169,'k_means_'+str(169))
+res3values = np.unique(res3)
+print(res3values)
+extract_feature(res3,res3values[3],'k_means_'+str(res3values[3]))
     
 
 
